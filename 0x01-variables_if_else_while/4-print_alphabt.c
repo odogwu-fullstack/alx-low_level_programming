@@ -14,7 +14,7 @@ int main(void)
 	start = 97;
 	while (start < 123)
 	{
-	if(start == 101 || start == 113)
+	if (start == 101 || start == 113)
 	{
 	start++;
 	continue;
