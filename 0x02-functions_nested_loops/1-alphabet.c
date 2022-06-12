@@ -1,10 +1,10 @@
 #include "main.h"
 /**
- * main - Entry point
+ * print_alphabet - Prints all lower case alphabets
  *
- * Return: Always 0 (Success)
+ * Return: Doesnt return shit
  */
-int main(void)
+void print_alphabet(void)
 {
 char start = 'a';
 
@@ -14,5 +14,4 @@ _putchar(start);
 start++;
 }
 _putchar('\n');
-return (0);
 }
