@@ -1,3 +1,4 @@
+#include "main.h"
 /**
  * print_sign - checks if a character is upper or lower case
  * @n: this function takes a parameter to check against
