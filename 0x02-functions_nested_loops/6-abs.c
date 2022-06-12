@@ -3,12 +3,12 @@
  * _abs - checks if a character is upper or lower case
  * @n: an integer value
  *
- * Return: absolute value of a number 
+ * Return: absolute value of a number
  */
 int _abs(int n)
 {
 if (n < 0)
-return -n;
+return (-n);
 else
-return n;
+return (n);
 }
