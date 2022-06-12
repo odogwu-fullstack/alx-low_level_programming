@@ -1,11 +1,11 @@
 #include "main.h"
 /**
- * int_abs - checks if a character is upper or lower case
+ * _abs - checks if a character is upper or lower case
  * @n: an integer value
  *
  * Return: absolute value of a number 
  */
-int int_abs(int n)
+int _abs(int n)
 {
 if (n < 0)
 return -n;
