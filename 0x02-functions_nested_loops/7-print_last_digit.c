@@ -11,7 +11,7 @@ int lastDigit;
 
 lastDigit = n % 10;
 if (lastDigit < 0 )
-lastDigit = -lastdigit;
+lastDigit = -lastDigit;
 _putchar(lastDigit + '0');
 return (lastDigit);
 }
