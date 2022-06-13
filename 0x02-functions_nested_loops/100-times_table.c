@@ -3,12 +3,11 @@
 * decideSpaces- checks if a character is upper or lower case
 * @multiplication: an integer between 0 and 15
 * @firstCounter: an integer between 0 and 15
-* @secondCounter: an integer between 0 and 15
 *
 * Return: Doesnt return shit
 */
 
-void decideSpaces(int multiplication, int  secondCounter, int firstCounter)
+void decideSpaces(int multiplication, int firstCounter)
 {
 if (multiplication + firstCounter >= 100)
 {
@@ -73,7 +72,7 @@ if (secondCounter == n)
 _putchar('\n');
 break;
 }
-decideSpaces(multiplication, secondCounter, firstCounter);
+decideSpaces(multiplication, firstCounter);
 }
 }
 }
