@@ -7,19 +7,24 @@
 int main(void)
 {
 int counter = 0;
-int firstDigit = 1;
-int lastDigit = 2;
-int currentDigit;
+unsigned long int firstDigit = 1;
+unsigned long int lastDigit = 2;
+unsigned long int currentDigit;
 
-printf("%d, ", firstDigit);
-printf("%d, ", lastDigit);
+printf("%lu, ", firstDigit);
+printf("%lu, ", lastDigit);
 while (counter < 48)
 {
 currentDigit = lastDigit + firstDigit;
 if (counter == 47)
-printf("%d\n", currentDigit);
+{
+printf("%lu\n", currentDigit);
+}
 else
-printf("%d, ", currentDigit);
+{
+printf("%lu, ", currentDigit);
+
+}
 firstDigit = lastDigit;
 lastDigit = currentDigit;
 counter++;
