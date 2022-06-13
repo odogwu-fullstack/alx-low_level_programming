@@ -10,11 +10,6 @@
 
 void decideSpaces(int multiplication, int  secondCounter, int firstCounter)
 {
-if (secondCounter == n)
-{
-_putchar('\n');
-break;
-}
 if (multiplication + firstCounter >= 100)
 {
 _putchar(',');
@@ -72,6 +67,11 @@ _putchar(secondDigit + '0');
 else
 {
 _putchar(multiplication + '0');
+}
+if (secondCounter == n)
+{
+_putchar('\n');
+break;
 }
 decideSpaces(multiplication, secondCounter, firstCounter);
 }

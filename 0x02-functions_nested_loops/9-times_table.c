@@ -11,6 +11,7 @@ int secondCounter;
 int multiplication;
 int firstDigit;
 int secondDigit;
+
 for (firstCounter = 0; firstCounter < 10; firstCounter++)
 {
 for (secondCounter = 0; secondCounter < 10; secondCounter++)
