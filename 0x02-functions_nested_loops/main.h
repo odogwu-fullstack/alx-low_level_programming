@@ -10,3 +10,4 @@ void jack_bauer(void);
 void print_to_98(int n);
 void print_times_table(int n);
 void decideSpaces(int, int);
+int print_multiple(void);
