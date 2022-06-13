@@ -1,10 +1,10 @@
 #include <stdio.h>
 /**
- * print_multiples - checks if a character is upper or lower case
+ * main - checks if a character is upper or lower case
  *
  * Return: Doesnt return shit
  */
-int print_multiples(void)
+int main(void)
 {
 int start;
 int sum = 0;
