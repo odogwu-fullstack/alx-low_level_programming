@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include "main.h"
 /**
  * print_multiples - checks if a character is upper or lower case
  *
