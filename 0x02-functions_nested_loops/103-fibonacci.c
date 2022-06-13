@@ -6,7 +6,6 @@
  */
 int main(void)
 {
-int counter = 0;
 unsigned long int firstDigit = 1;
 unsigned long int lastDigit = 2;
 unsigned long int currentDigit = 2;
