@@ -16,7 +16,7 @@ for (firstCounter = 0; firstCounter < 10; firstCounter++)
 for (secondCounter = 0; secondCounter < 10; secondCounter++)
 {
 multiplication = firstCounter * secondCounter;
-if (multiplication > 10)
+if (multiplication >= 10)
 {
 firstDigit = multiplication / 10;
 secondDigit = multiplication % 10;
@@ -32,7 +32,7 @@ if (secondCounter == 9)
 _putchar('\n');
 break;
 }
-if (multiplication > 10)
+if (multiplication + secoundCounter >= 10)
 {
 _putchar(',');
 _putchar(' ');
