@@ -32,7 +32,7 @@ if (secondCounter == 9)
 _putchar('\n');
 break;
 }
-if (multiplication + secoundCounter >= 10)
+if (multiplication + firstCounter >= 10)
 {
 _putchar(',');
 _putchar(' ');
