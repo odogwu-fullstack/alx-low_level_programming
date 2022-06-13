@@ -5,7 +5,7 @@
  *
  * Return: Doesnt return shit
  */
-int add(int a, int c)
+int add(int a, int b)
 {
-return a + b;
+return (a + b);
 }
