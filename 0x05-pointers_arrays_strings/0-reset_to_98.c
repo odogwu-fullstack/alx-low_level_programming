@@ -3,7 +3,7 @@
 *
 * Return: Doesnt return shit
 */
-voidreset_to98(int *n)
+void reset_to98(int *n)
 {
 *n= 98;
 }
