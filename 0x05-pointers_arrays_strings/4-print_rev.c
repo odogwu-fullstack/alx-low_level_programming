@@ -8,7 +8,7 @@
 */
 void print_rev(char *s)
 {
-long int firstIndex = s;
+long int firstIndex = (long int) s;
 long int lastIndex = 0;
 long int i;
 
