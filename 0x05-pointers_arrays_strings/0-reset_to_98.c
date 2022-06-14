@@ -1,3 +1,4 @@
+#include "main.h"
 /**
 * reset_to98 - checks if a character is upper or lower case
 *
