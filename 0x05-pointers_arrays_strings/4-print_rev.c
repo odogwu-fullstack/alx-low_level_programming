@@ -16,7 +16,7 @@ while (*(s + lastIndex) != '\0')
 {
 lastIndex++;
 }
-for (i = lastIndex - 1; i >= firstindex; --i)
+for (i = lastIndex - 1; i >= firstIndex; --i)
 {
 putchar(*(s + i));
 }
