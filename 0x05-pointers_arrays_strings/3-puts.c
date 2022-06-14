@@ -1,3 +1,4 @@
+#include <stdio.h>
 #include "main.h"
 /**
 * _puts- checks if a character is upper or lower case
