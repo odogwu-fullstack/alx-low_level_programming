@@ -8,6 +8,7 @@
 */
 void print_rev(char *s)
 {
+long int firstIndex = s;
 long int lastIndex = 0;
 long int i;
 
@@ -15,7 +16,7 @@ while (*(s + lastIndex) != '\0')
 {
 lastIndex++;
 }
-for (i = lastIndex - 1; i >= s; --i)
+for (i = lastIndex - 1; i >= firstindex; --i)
 {
 putchar(*(s + i));
 }
