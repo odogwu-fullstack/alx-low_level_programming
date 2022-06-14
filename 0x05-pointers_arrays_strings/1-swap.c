@@ -1,6 +1,6 @@
 #include "main.h"
 /**
-* swap_int checks if a character is upper or lower case
+* swap_int - Swaps two variables
 * @a: a rubbish integer pointer
 * @b: a rubbish integer pointer
 *
