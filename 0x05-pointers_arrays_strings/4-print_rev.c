@@ -13,9 +13,11 @@ char *firstPointer;
 firstPointer = s;
 while (*s != '\0')
 s++;
+s--;
 while (s >= firstPointer)
 {
 putchar(*s);
 s--;
 }
+putchar('\n');
 }
