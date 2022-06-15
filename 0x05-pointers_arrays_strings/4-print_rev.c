@@ -18,5 +18,4 @@ while (s >= firstPointer)
 putchar(*s);
 s--;
 }
-putchar('\n');
 }
