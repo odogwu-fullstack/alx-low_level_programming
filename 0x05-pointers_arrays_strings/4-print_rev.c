@@ -8,6 +8,7 @@
 void print_rev(char *s)
 {
 char *firstPointer;
+
 firstPointer = s;
 while (*s != '\0')
 s++;
@@ -16,4 +17,5 @@ while (s >= firstPointer)
 _putchar(*s);
 s--;
 }
+_putchar('\n');
 }
