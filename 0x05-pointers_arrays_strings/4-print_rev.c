@@ -14,8 +14,8 @@ while (*s != '\0')
 s++;
 while (s >= firstPointer)
 {
-_putchar(*s);
+putchar(*s);
 s--;
 }
-_putchar('\n');
+putchar('\n');
 }
