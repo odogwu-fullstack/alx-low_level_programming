@@ -18,7 +18,7 @@ while (*str != '\0')
 length++;
 str++;
 }
-str = firstpointer;
+str = firstPointer;
 while (counter < length)
 {
 putchar(*(str + counter));
