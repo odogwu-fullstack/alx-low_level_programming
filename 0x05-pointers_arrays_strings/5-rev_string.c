@@ -17,7 +17,7 @@ while (*s != '\0')
 len++;
 s++;
 }
-lastPointer += length - 1;
+lastPointer += len - 1;
 for (i = 0; i < len / 2; i++)
 {
 temp = *lastPointer;
